@@ -100,7 +100,7 @@
         <div class="col-lg-4">
             <div class="card">
                 <div class="card-header">
-                    <h1><i class="fas fa-graduation-cap icon-academic"></i><b>Voulez-vous vraiment faire un vote null ?</b></h1>
+                    <h1><i class="fas fa-graduation-cap icon-academic"></i><b>Voulez-vous vraiment faire un vote nul ?</b></h1>
                 </div>
                 <div class="card-body form-container">
                     @if(Session::has('success'))

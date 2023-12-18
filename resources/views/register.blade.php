@@ -103,6 +103,7 @@
         <div class="col-lg-4">
             <div class="card">
                 <div class="card-header">
+                <img src="images/lbs.jpg" alt="" style="width: 200px;">
                     <h1><i class="fas fa-graduation-cap icon-academic"></i> <b>Ajout d'un User/Admin</b></h1>
                 </div>
                 <div class="card-body form-container">

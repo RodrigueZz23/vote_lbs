@@ -80,7 +80,7 @@
                             {{ Session::get('error') }}
                         </div>
                     @endif
-            <img src="images/lbs.jpg" alt="">
+            <img src="images/lbs.jpg" alt="" style="width: 200px; margin-left:75px;">
             <h1 class="card-title">Connexion</h1>
             <!-- Affichez les messages d'erreur ici si nécessaire -->
             <form action="{{ route('login') }}" method="POST">

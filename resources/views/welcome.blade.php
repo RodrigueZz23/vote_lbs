@@ -14,7 +14,7 @@
 </head>
 <div class="container">
         <div class="content">
-        <img src="images/lbs.jpg" alt="">
+        <img src="images/lbs.jpg" alt="" style="margin-top: -150px;">
             <h1 class="title">EasyVote</h1>
             <p class="description">La plateforme qui vous permet de voter facilement.</p>
             <div class="buttons">
@@ -65,6 +65,11 @@
     animation: fadeInUp 1s ease-in-out forwards 1.1s;
 }
 
+img{
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1s ease-in-out forwards 1.1s;
+}
 
 
 .login-button, .register-button {

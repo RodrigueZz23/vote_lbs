@@ -38,7 +38,6 @@
           </div>
         </div>
     </nav>
-    <img src="images/lbs.png" alt="">
 
     <style>
 
@@ -115,19 +114,41 @@
     }
 
     </style>
+    <img src="images/lbs.jpg" alt="" style="width: 200px; margin-left:20px; margin-top:10px;">
 
-                <h1>Nombre total de vote :</h1>
 
     <div class="candidate-container">
         <div class="candidate-link1" >
+        <table class="table table-bordered table-hover">
+        <tr>
+            <th scope="row" colspan="4" style="background-color:green;">00</th>
+        </tr>
+    </table>
             <img src="images/im1.jpg" alt="Candidate 1">
             <div class="candidate-info">
     </div>
             </div>
-        </a>
-                <h1>Nombre total de vote :</h1>
+
+
         <div class="candidate-link2" >
+        <table class="table table-bordered table-hover">
+        <tr>
+            <th scope="row" colspan="4" style="background-color:green;">00</th>
+        </tr>
+    </table>
             <img src="images/im2.jpg" alt="Candidate 2">
+            <div class="candidate-info">
+            </div>
+        </div>
+    </div>
+
+        <div class="candidate-link2" >
+        <table class="table table-bordered table-hover">
+        <tr>
+            <th scope="row" colspan="4" style="background-color:green;">00</th>
+        </tr>
+    </table>
+            <img src="images/im3.png" alt="Candidate 2">
             <div class="candidate-info">
             </div>
         </div>
@@ -175,7 +196,7 @@
 
         .candidate-link1 img {
             width: 400px;
-            display: block;
+            display: inline-flex;
             transition: transform 0.5s ease;
             border-radius: 30px;
         }
@@ -183,7 +204,7 @@
         .candidate-link2 img {
             width: 400px;
            position: relative;
-            display: block;
+            display:inline-flex;
             transition: transform 0.5s ease;
             border-radius: 30px;
 
@@ -199,7 +220,6 @@
             font-size: 24px;
             margin-bottom: 5px;
         }
-
 </style>
 
 </body>

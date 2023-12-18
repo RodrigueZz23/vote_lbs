@@ -112,6 +112,7 @@ tr th[scope="row"]::before {
 
 
 <div class="container mt-5">
+<img src="images/lbs.jpg" alt="" style="width: 200px; margin-top:-10px;">
     <h2 class="mb-4">christopher</h2>
     <table class="table table-bordered table-hover">
         <tr>

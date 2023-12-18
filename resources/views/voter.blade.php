@@ -103,6 +103,9 @@
         }
 
     </style>
+    <div class="img_lbs">
+    <img src="images/lbs.jpg" alt="" style="width: 200px; margin-left:20px; margin-top:-10px;">
+    </div>
 
     <h1>Choisir votre candidat 👇</h1>
  <div class="candidate-container">
@@ -121,6 +124,15 @@
                 <button class="vote-button">Vote 📩</button>
             </div>
         </a>
+        <a class="candidate-link2" href="{{ url('/bulletin_null') }}">
+            <img src="images/im3.png" alt="null">
+            <div class="candidate-info">
+
+           <button class="vote-button">Vote nul 📩</button>
+            </div>
+        </a>
+
+
     </div>
 
 <style>
@@ -216,6 +228,12 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+        }
+
+        .img_lbs img:hover{
+            transition: none;
+            transform: none;
+            opacity: none;
         }
 
 </style>
